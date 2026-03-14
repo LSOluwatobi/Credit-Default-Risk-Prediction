@@ -1,5 +1,3 @@
-Here is the full, complete **README.md** content for your GitHub repository. You can copy and paste this directly into your GitHub editor.
-
 ---
 
 # **Credit Default Risk Prediction: A Parametric Comparative Study**
