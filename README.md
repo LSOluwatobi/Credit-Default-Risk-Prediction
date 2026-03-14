@@ -74,6 +74,7 @@ The training set was balanced using down-sampling to ensure the models could lea
 ### **1. Feature Correlation Matrix**
 
 ![Correlation Matrix](assets/correlation_plot.png)
+
 *Figure 1: Heatmap visualizing feature dependencies and identifying multicollinearity clusters.*
 
 > **Insight:** This heatmap correctly signaled the extreme multicollinearity confirmed by the VIF scores. In credit scoring, these delinquency variables provide overlapping signals of risk, which requires careful handling in parametric models.
@@ -81,6 +82,7 @@ The training set was balanced using down-sampling to ensure the models could lea
 ### **2. Model Performance (ROC Curve)**
 
 ![ROC Curve](assets/ROC_comparison.png)
+
 *Figure 2: ROC curve comparison showing Logistic Regression as the top performer.*
 
 > **Insight:** The ROC curve illustrates the trade-off between the True Positive Rate and False Positive Rate. **Logistic Regression (AUC: 0.8354)** maintains a high True Positive Rate across thresholds, which is essential for minimizing financial loss.
