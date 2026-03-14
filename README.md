@@ -18,21 +18,24 @@
 * **Core Libraries:** `tidyverse` (Data Manipulation), `caret` (Preprocessing & Partitioning), `MASS` (LDA), `e1071` (Naive Bayes), `pROC` (AUC Metrics), `car` (VIF Diagnostics).
 
 ---
-📂 Data Description
-The dataset contains 11 clinical and financial attributes used to determine the 2-year probability of a borrower experiencing financial distress.
+## 📂 Data Description
+The dataset contains 11 financial and demographic attributes used to determine the probability of a borrower experiencing financial distress.
 
-Variable	Description	Type
-SeriousDlqin2yrs	Person experienced 90 days past due delinquency or worse	Target (Binary)
-RevolvingUtilization...	Total balance on credit cards and personal lines of credit divided by the sum of credit limits	Numeric (Ratio)
-age	Age of borrower in years	Numeric
-NumberOfTime30-59...	Number of times borrower has been 30-59 days past due but no worse in the last 2 years	Numeric (Count)
-DebtRatio	Monthly debt payments, alimony, living costs divided by monthy gross income	Numeric (Ratio)
-MonthlyIncome	Monthly income	Numeric (Currency)
-NumberOfOpenCredit...	Number of Open loans (installment like car loan or mortgage) and Lines of credit	Numeric (Count)
-NumberOfTimes90DaysLate	Number of times borrower has been 90 days or more past due	Numeric (Count)
-NumberRealEstateLoans...	Number of mortgage and real estate loans including home equity lines of credit	Numeric (Count)
-NumberOfTime60-89...	Number of times borrower has been 60-89 days past due but no worse in the last 2 years	Numeric (Count)
-NumberOfDependents	Number of dependents in family excluding themselves	Numeric (Count)
+| Variable | Description | Type |
+| :--- | :--- | :--- |
+| **SeriousDlqin2yrs** | Person experienced 90 days past due delinquency or worse | **Target** |
+| **RevolvingUtilization...** | Total balance on credit cards/lines divided by sum of credit limits | Numeric |
+| **age** | Age of borrower in years | Numeric |
+| **NumberOfTime30-59...** | Times borrower has been 30-59 days past due in last 2 years | Numeric |
+| **DebtRatio** | Monthly debt/costs divided by monthly gross income | Numeric |
+| **MonthlyIncome** | Monthly income | Numeric |
+| **NumberOfOpenCredit...** | Number of open loans and lines of credit | Numeric |
+| **NumberOfTimes90DaysLate** | Number of times borrower has been 90+ days past due | Numeric |
+| **NumberRealEstateLoans** | Number of mortgage and real estate loans | Numeric |
+| **NumberOfTime60-89...** | Times borrower has been 60-89 days past due in last 2 years | Numeric |
+| **NumberOfDependents** | Number of dependents in family | Numeric |
+---
+
 ## **📈 Project Workflow**
 
 ### **1. Data Preprocessing & Cleaning**
