@@ -9,8 +9,6 @@
 if(!require("pacman")) install.packages("pacman")
 pacman::p_load(tidyverse, caret, MASS, e1071, pROC, corrplot, car, MVN, rstatix)
 
-set.seed(123)
-
 # ------------------------------------------------------------------------------
 # PHASE 2: Load Real Dataset
 # ------------------------------------------------------------------------------
