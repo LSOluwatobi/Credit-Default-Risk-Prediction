@@ -1,4 +1,4 @@
-# **Credit Default Risk Prediction: A Parametric Comparative Study**
+# **Credit Default Risk Prediction: A Classification Machine Learning Project**
 
 ## **📌 Executive Summary**
 
