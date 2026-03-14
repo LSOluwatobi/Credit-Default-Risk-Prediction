@@ -1,5 +1,3 @@
----
-
 # **Credit Default Risk Prediction: A Parametric Comparative Study**
 
 ## **📌 Executive Summary**
